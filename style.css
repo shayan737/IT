@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#banner {
+	background: linear-gradient(rgba(0,0,0,0.1), #096b79),url(img/full.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+#banner-page2 {
+	background: linear-gradient(rgba(0,0,0,1), #096b79),url(img/full.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	position: static;
+	padding-top: 0%;
+}
+.logo {
+	margin-left: 2%;
+	margin-top: 2%;
+	width: 6%;
+	height: 16%
+	position: fixed;
+}
+
+.banner-text {
+	text-align: center;
+	color: white;
+	padding-top: 200px;
+}
+
+.banner-text h1 {
+	font-size: 130px;
+}
+
+.banner-text p {
+	font-size: 30px;
+	font-style: italic;
+}
+
+.btn-home {
+	  background-color: #ffcc00;
+	  border-radius: 10px;
+	  padding: 14px 25px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  cursor: pointer;
+	  position: relative;
+	  margin-top: 2.5%;
+	  font-size: 100%;
+	  color: black;
+	  font-weight: 650;
+
+}
+
+.btn-home:hover {
+	background-color: red;
+	cursor: pointer;
+}
+
+#write {
+	background:  url(img/white.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	margin-left: 20%;	
+	margin-right: 20%;
+	margin-top: 0%
+}
+
+.topnav {
+  overflow: hidden;
+ background: linear-gradient(rgba(0,0,0,1), #096b79);
+    margin: 0;
+  font-family: sans-serif;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color:  #076b69;
+}
+
+.topnav a.active {
+  background: linear-gradient(rgba(0,0,0,1), #096b79);
+  color: white;
+}
+
+.page2-para {
+	margin-right: 10%;
+	margin-left: 10%;
+	font-size: 110%;
+	font-family: arial;
+	font-weight: 500; 
+
+}
+
+.jaduu {
+	text-align: center;
+	font-size: 300%;
+	margin-top: -5%;
+}
+
+.btn-blue {
+	  background-color: #096b79;
+	  border-radius: 10px;
+	  padding: 14px 25px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  cursor: pointer;
+	  position: relative;
+	  margin-top: 2.5%;
+	  font-size: 100%;
+	  color: white;
+	  font-weight: 650;
+}
